@@ -1,0 +1,15 @@
+class GroceryStore
+
+Attributes:
+1. hoursOpen (String)
+2. departments (array)
+3. address (string)
+4. numberLocations (integer)
+5. hasSelfCheckout (boolean)
+
+Methods:
+1. closeEarly (changes hoursOpen)
+2. addDepartment (adds element to departments array)
+3. relocateStore (changes address)
+4. closeLocation (changes numberLocations - 1)
+5. removeSelfCheckout (changes hasSelfCheckout to false)
