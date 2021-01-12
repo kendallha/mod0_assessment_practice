@@ -1,0 +1,17 @@
+instance class GroceryStore
+
+albertsons
+
+Attributes:
+1. hoursOpen (String) = "Monday-Saturday: 6 AM - 11 PM,  Sunday 8 AM - 8 PM"
+2. departments (array) = ["deli","floral","produce","grocery","home supplies"]
+3. headquartersAddress (string) = "1289 Cheshire Ave, Ann Arbor, MI, 98203"
+4. numberLocations (integer) = 2109
+5. hasSelfCheckout (boolean) = true
+
+Methods:
+1. closeEarly (changes hoursOpen) = ""Monday-Saturday: 6 AM - 8 PM,  Sunday 8 AM - 6 PM" "
+2. addDepartment (adds element to departments array) = ["deli","floral","produce","grocery","home supplies", "bakery"]
+3. relocateStoreHeadquarters (changes address) = "778 Rodeo Drive, Los Angeles, CA, 90210"
+4. closeLocation (changes numberLocations - 1) = 2108
+5. removeSelfCheckout (changes hasSelfCheckout to false) = false
